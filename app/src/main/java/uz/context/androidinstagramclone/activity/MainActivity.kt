@@ -8,13 +8,14 @@ import uz.context.androidinstagramclone.adapter.ViewPagerAdapter
 import uz.context.androidinstagramclone.databinding.ActivityMainBinding
 import uz.context.androidinstagramclone.fragment.HomeFragment
 import uz.context.androidinstagramclone.fragment.UploadFragment
+import uz.context.androidinstagramclone.util.toast
 
 /*
     It contains view pager with 5 fragments in MainActivity,
     and pages can be controlled by BottomNavigation
  */
 
-class MainActivity : BaseActivity() {
+class MainActivity : BaseActivity(), UploadFragment.UploadListener, HomeFragment.HomeListener {
 
     private lateinit var homeFragment: HomeFragment
     private lateinit var uploadFragment: UploadFragment
@@ -30,6 +31,22 @@ class MainActivity : BaseActivity() {
 
         initViews()
 
+    }
+
+    override fun scrollToHome() {
+        index = 0
+        scrollByIndex(index)
+        toast("$index scroll to home")
+    }
+
+    override fun scrollToUpload() {
+        index = 2
+        scrollByIndex(index)
+    }
+
+    private fun scrollByIndex(index: Int) {
+        binding.viewPager.currentItem = index
+        binding.bottomNavigationView.menu.getItem(index).isChecked = true
     }
 
     private fun initViews() {

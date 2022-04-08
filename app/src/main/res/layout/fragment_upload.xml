@@ -54,7 +54,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:visibility="gone">
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible">
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/ivPick"
@@ -71,7 +73,7 @@
             android:layout_height="match_parent"
             android:clickable="true"
             android:focusable="true"
-            android:visibility="visible">
+            android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/ivPhoto"
@@ -108,9 +110,9 @@
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editText"
-            android:hint="@string/ent"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/ent" />
 
     </LinearLayout>
 

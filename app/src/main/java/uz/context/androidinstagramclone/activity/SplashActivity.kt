@@ -31,7 +31,7 @@ class SplashActivity : BaseActivity() {
             override fun onTick(p0: Long) {}
 
             override fun onFinish() {
-                callActivity(this@SplashActivity, SignInActivity(), true)
+                callActivity(this@SplashActivity, MainActivity(), true)
             }
         }
         countDownTimer.start()
