@@ -4,11 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/app_main_gradient.xml" value="0.1575" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/bottom_navigation_editor_selector.xml" value="0.196" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.196" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.148" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/ic_baseline_cloud_upload_24.xml" value="0.196" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.196" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/splash_back.xml" value="0.196" />
         <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/drawable/view_rounded_corner.xml" value="0.1575" />
         <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/font/billabong.xml" value="0.23122362869198312" />
         <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/activity_main.xml" value="0.20675105485232068" />
         <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/activity_sign_in.xml" value="0.2094017094017094" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/activity_sign_up.xml" value="0.2094017094017094" />
         <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/activity_splash.xml" value="0.2094017094017094" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/fragment_favorite.xml" value="0.2094017094017094" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/fragment_home.xml" value="0.2094017094017094" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/fragment_profile.xml" value="0.2094017094017094" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/fragment_search.xml" value="0.2094017094017094" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/layout/fragment_upload.xml" value="0.2094017094017094" />
+        <entry key="..\:/Users/Tasks/AndroidInstagramClone/app/src/main/res/menu/navigation.xml" value="0.20675105485232068" />
       </map>
     </option>
   </component>
